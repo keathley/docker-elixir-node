@@ -1,6 +1,6 @@
-FROM elixir:1.4.2
+FROM defactosoftware/elixir:1.5
 
-ENV NODE_VERSION=6.10.2 \
+ENV NODE_VERSION=6.11.1 \
     LANG=C.UTF-8 \
     NPM_CONFIG_LOGLEVEL=info
 
